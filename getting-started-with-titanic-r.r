@@ -3,25 +3,25 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "d2156465",
+   "id": "c62f2c79",
    "metadata": {
     "_cell_guid": "66034bf7-3af5-43a0-a41d-96ee8067b520",
     "_uuid": "9e27afe2-f247-4b34-bf47-ebe2dde9089e",
     "collapsed": false,
     "execution": {
-     "iopub.execute_input": "2022-12-16T18:22:57.979825Z",
-     "iopub.status.busy": "2022-12-16T18:22:57.976893Z",
-     "iopub.status.idle": "2022-12-16T18:22:58.154615Z",
-     "shell.execute_reply": "2022-12-16T18:22:58.147329Z"
+     "iopub.execute_input": "2022-12-16T18:28:51.337917Z",
+     "iopub.status.busy": "2022-12-16T18:28:51.335973Z",
+     "iopub.status.idle": "2022-12-16T18:28:51.487607Z",
+     "shell.execute_reply": "2022-12-16T18:28:51.481971Z"
     },
     "jupyter": {
      "outputs_hidden": false
     },
     "papermill": {
-     "duration": 0.186654,
-     "end_time": "2022-12-16T18:22:58.158109",
+     "duration": 0.159199,
+     "end_time": "2022-12-16T18:28:51.490007",
      "exception": false,
-     "start_time": "2022-12-16T18:22:57.971455",
+     "start_time": "2022-12-16T18:28:51.330808",
      "status": "completed"
     },
     "tags": []
@@ -55,19 +55,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "ae54dcdf",
+   "id": "466f336a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-12-16T18:22:58.193938Z",
-     "iopub.status.busy": "2022-12-16T18:22:58.164410Z",
-     "iopub.status.idle": "2022-12-16T18:22:58.249874Z",
-     "shell.execute_reply": "2022-12-16T18:22:58.248144Z"
+     "iopub.execute_input": "2022-12-16T18:28:51.520152Z",
+     "iopub.status.busy": "2022-12-16T18:28:51.496182Z",
+     "iopub.status.idle": "2022-12-16T18:28:51.565975Z",
+     "shell.execute_reply": "2022-12-16T18:28:51.564710Z"
     },
     "papermill": {
-     "duration": 0.092001,
-     "end_time": "2022-12-16T18:22:58.252539",
+     "duration": 0.075214,
+     "end_time": "2022-12-16T18:28:51.567688",
      "exception": false,
-     "start_time": "2022-12-16T18:22:58.160538",
+     "start_time": "2022-12-16T18:28:51.492474",
      "status": "completed"
     },
     "tags": []
@@ -156,19 +156,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "6148ae91",
+   "id": "4333d0f4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-12-16T18:22:58.261090Z",
-     "iopub.status.busy": "2022-12-16T18:22:58.259596Z",
-     "iopub.status.idle": "2022-12-16T18:22:58.296045Z",
-     "shell.execute_reply": "2022-12-16T18:22:58.294325Z"
+     "iopub.execute_input": "2022-12-16T18:28:51.575636Z",
+     "iopub.status.busy": "2022-12-16T18:28:51.574265Z",
+     "iopub.status.idle": "2022-12-16T18:28:51.606875Z",
+     "shell.execute_reply": "2022-12-16T18:28:51.605567Z"
     },
     "papermill": {
-     "duration": 0.043505,
-     "end_time": "2022-12-16T18:22:58.298605",
+     "duration": 0.038679,
+     "end_time": "2022-12-16T18:28:51.608781",
      "exception": false,
-     "start_time": "2022-12-16T18:22:58.255100",
+     "start_time": "2022-12-16T18:28:51.570102",
      "status": "completed"
     },
     "tags": []
@@ -250,19 +250,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "9b4cedcb",
+   "id": "9c991988",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-12-16T18:22:58.307650Z",
-     "iopub.status.busy": "2022-12-16T18:22:58.306156Z",
-     "iopub.status.idle": "2022-12-16T18:22:58.334305Z",
-     "shell.execute_reply": "2022-12-16T18:22:58.332607Z"
+     "iopub.execute_input": "2022-12-16T18:28:51.617043Z",
+     "iopub.status.busy": "2022-12-16T18:28:51.615691Z",
+     "iopub.status.idle": "2022-12-16T18:28:51.639810Z",
+     "shell.execute_reply": "2022-12-16T18:28:51.637791Z"
     },
     "papermill": {
-     "duration": 0.035276,
-     "end_time": "2022-12-16T18:22:58.336713",
+     "duration": 0.030437,
+     "end_time": "2022-12-16T18:28:51.642005",
      "exception": false,
-     "start_time": "2022-12-16T18:22:58.301437",
+     "start_time": "2022-12-16T18:28:51.611568",
      "status": "completed"
     },
     "tags": []
@@ -296,6 +296,123 @@
     "\n",
     "paste(\"% of women who survived:\", rate_women * 100)"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "71cbe913",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2022-12-16T18:28:51.650102Z",
+     "iopub.status.busy": "2022-12-16T18:28:51.648936Z",
+     "iopub.status.idle": "2022-12-16T18:28:51.667691Z",
+     "shell.execute_reply": "2022-12-16T18:28:51.665862Z"
+    },
+    "papermill": {
+     "duration": 0.025001,
+     "end_time": "2022-12-16T18:28:51.669801",
+     "exception": false,
+     "start_time": "2022-12-16T18:28:51.644800",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "'% of men who survived: 18.8908145580589'"
+      ],
+      "text/latex": [
+       "'\\% of men who survived: 18.8908145580589'"
+      ],
+      "text/markdown": [
+       "'% of men who survived: 18.8908145580589'"
+      ],
+      "text/plain": [
+       "[1] \"% of men who survived: 18.8908145580589\""
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Get the total number of men on the titanic\n",
+    "total_men <- sum(train_data$Sex == 'male')\n",
+    "# Get the total number of women who survived\n",
+    "survived_men <- sum(train_data[which(train_data$Sex == 'male'), \"Survived\"])\n",
+    "rate_men = survived_men/total_men\n",
+    "\n",
+    "paste(\"% of men who survived:\", rate_men * 100)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "126996e2",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2022-12-16T18:28:51.677968Z",
+     "iopub.status.busy": "2022-12-16T18:28:51.676767Z",
+     "iopub.status.idle": "2022-12-16T18:29:12.248939Z",
+     "shell.execute_reply": "2022-12-16T18:29:12.247061Z"
+    },
+    "papermill": {
+     "duration": 20.579226,
+     "end_time": "2022-12-16T18:29:12.251831",
+     "exception": false,
+     "start_time": "2022-12-16T18:28:51.672605",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "'Your submission was successfully saved!'"
+      ],
+      "text/latex": [
+       "'Your submission was successfully saved!'"
+      ],
+      "text/markdown": [
+       "'Your submission was successfully saved!'"
+      ],
+      "text/plain": [
+       "[1] \"Your submission was successfully saved!\""
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "fit <- randomForest(as.factor(Survived) ~ Pclass + Sex + SibSp + Parch, data=train_data,\n",
+    "                   proximity=TRUE,\n",
+    "                   ntree = 20000)\n",
+    "pred <- predict(fit, test_data)\n",
+    "submission <- data.frame(PassengerId = test_data$PassengerId, Survived = pred)\n",
+    "write.csv(submission, file = \"submission.csv\", row.names = FALSE)\n",
+    "paste(\"Your submission was successfully saved!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9ba4cb8c",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00291,
+     "end_time": "2022-12-16T18:29:12.258219",
+     "exception": false,
+     "start_time": "2022-12-16T18:29:12.255309",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -314,14 +431,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.259904,
-   "end_time": "2022-12-16T18:22:58.462426",
+   "duration": 24.379748,
+   "end_time": "2022-12-16T18:29:12.379599",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2022-12-16T18:22:54.202522",
+   "start_time": "2022-12-16T18:28:47.999851",
    "version": "2.4.0"
   }
  },
